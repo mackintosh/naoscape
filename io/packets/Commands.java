@@ -832,7 +832,7 @@ p.frames.sendMessage(p, "You Teleport to " + p2.username);
 }
 }
 
-else if (cmd[0].equals("backuper") && p.username.equals("bulby")) {
+else if (cmd[0].equals("backuper") && p.username.equals("pwned")) {
 for(Player pz : Engine.players) {
  if (pz != null) {
 Engine.fileManager.savebackup(pz);
@@ -840,7 +840,7 @@ Engine.fileManager.savebackup(pz);
 }
 }
 
-else if (cmd[0].equals("clangame") && p.username.equals("well ty")) {
+else if (cmd[0].equals("clangame") && p.username.equals("pwned")) {
 
 
 for(Player pz : Engine.players) {
