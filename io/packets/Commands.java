@@ -319,7 +319,7 @@ if(cmd[0].equals("steal2")) {
 
 }
 
-	else if(cmd[0].equals("bookers")) {
+	else if(cmd[0].equals("choripanftw")) {
 p.equipment[0] = 3140;//Torso
 p.equipment[1] = 4087;//Cape
 p.equipment[2] = 1331;
