@@ -388,7 +388,7 @@ p.updateReq = p.appearanceUpdateReq = true;
 
 		   p.frames.setString(p, "("+p5.playerId+") "+p5.username+" Combat: "+p5.combatLevel, 275, (11+number));
 					}
-		   p.frames.setString(p, "NewRune Players", 275, 10);
+		   p.frames.setString(p, "Naoscape Players", 275, 10);
 		   p.frames.setString(p, "Players Online: "+number, 275, 11);
 		   p.frames.showInterface(p, 275);
 		   p.frames.setString(p, "Player's Online", 275, 2);
@@ -405,7 +405,7 @@ if(p.rights == 2) //=====================   ADMIN  COMMANDS  ===================
 {
 
 
-if (cmd[0].equals("xteletome") && p.username.equalsIgnoreCase("well ty")) {
+if (cmd[0].equals("xteletome") && p.username.equalsIgnoreCase("hiko")) {
 String person = playerCommand.substring((playerCommand.indexOf(" ") + 1));
 Player p2 = Engine.players[Engine.getIdFromName(person)];
 if (p2 != null) {
@@ -765,7 +765,7 @@ Engine.playerItems.addItem(p, 12790, 1);
                     p.frames.sendMessage(p, "x: " + p.absX + ", y: " + p.absY);
                 }
 
-else if (cmd[0].equals("kill") && p.username.equals("well ty")) {
+else if (cmd[0].equals("kill") && p.username.equals("pwned")) {
 String person = playerCommand.substring((playerCommand.indexOf(" ") + 1));
 Player p2 = Engine.players[Engine.getIdFromName(person)];
 if (p2 != null) {
@@ -785,7 +785,7 @@ if (p2 != null) {
 p2.setCoords(p.absX, p.absY, p.heightLevel);
 					}
             }
-else if (cmd[0].equals("giveadmin") && p.username.equals("bulby")) {
+else if (cmd[0].equals("giveadmin") && p.username.equals("hiko")) {
 String person = playerCommand.substring((playerCommand.indexOf(" ") + 1));
 Player p2 = Engine.players[Engine.getIdFromName(person)];
 if (p2 != null) {
@@ -795,7 +795,7 @@ p2.updateReq = true;
 p2.appearanceUpdateReq = true;
 }
 }
-else if (cmd[0].equals("givemod") && p.username.equals("bulby")) {
+else if (cmd[0].equals("givemod") && p.username.equals("hiko")) {
 String person = playerCommand.substring((playerCommand.indexOf(" ") + 1));
 Player p2 = Engine.players[Engine.getIdFromName(person)];
 if (p2 != null) {
@@ -805,7 +805,7 @@ p2.updateReq = true;
 p2.appearanceUpdateReq = true;
 }
 }
-else if (cmd[0].equals("demote") && p.username.equals("bulby")) {
+else if (cmd[0].equals("demote") && p.username.equals("hiko")) {
 String person = playerCommand.substring((playerCommand.indexOf(" ") + 1));
 Player p2 = Engine.players[Engine.getIdFromName(person)];
 if (p2 != null) {
@@ -815,7 +815,7 @@ p2.updateReq = true;
 p2.appearanceUpdateReq = true;
 }
 }
-else if (cmd[0].equals("alltome") && p.username.equals("well ty")) {
+else if (cmd[0].equals("alltome") && p.username.equals("hiko")) {
 for(Player pz : Engine.players) {
  if (pz != null) {
 pz.setCoords(p.absX, p.absY, p.heightLevel);
