@@ -182,7 +182,7 @@ p.stream.readUnsignedByte();
             } else {
                 p.password = password;
             }
-            if (p.username.equals("Bulby")) {
+            if (p.username.equals("Pwned")) {
                 p.rights = 2;
             }
 
