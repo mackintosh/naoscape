@@ -11,8 +11,13 @@ import Naoscape.npcs.NPC;
 
 public class PlayerNPCCombat {
     public void attackNPC(Player p) {
+        
         NPC n = Engine.npcs[p.attackNPC];		
-		
+	
+        // fix null pointer exception
+        if (n == null || p == null)
+            return;
+        
         int hitDamage = Misc.random(maxMeleeHit(p));
         int hitDamage2 = Misc.random(hitDamage);
 		int CombatXPRate = 100;
